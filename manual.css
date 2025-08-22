@@ -1,0 +1,86 @@
+/*Essa ainda tem que fazer*/
+
+* {
+  font-family: 'Edu NSW ACT Cursive', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  background-color: brown;
+  width: 100%;
+  height: 10%;
+  box-shadow: 0px 8px 30px 2px #0f010156;
+
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
+
+header a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+header img {
+  width: 14%;
+}
+
+
+.titulo {
+  font-size: 2.5em;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.margem {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.parag {
+  font-size: 1.3em;
+
+
+}
+
+.alinhamento {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.alinhamento a {
+  border-radius: 1.5rem;
+  padding: 3%;
+  background-color: #d14747;
+  color: #ffff;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+.alinhamento a:hover {
+  transform: scale(1.02);
+}
+
+footer img {
+  width: 10%;
+}
+
+footer {
+  margin-top: 7%;
+  color: #ffff;
+  height: 30vh;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: brown;
+}
